@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PocketMedical")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18100a71ade6dc909c96fc09ac4d26ba62f2a566")]
 [assembly: System.Reflection.AssemblyProductAttribute("PocketMedical")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PocketMedical")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
