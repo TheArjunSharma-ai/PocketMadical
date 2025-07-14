@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocketMedical", "PocketMedical.csproj", "{DFE864D8-65A5-43BC-A439-5A5648C25850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFE864D8-65A5-43BC-A439-5A5648C25850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE864D8-65A5-43BC-A439-5A5648C25850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE864D8-65A5-43BC-A439-5A5648C25850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE864D8-65A5-43BC-A439-5A5648C25850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62BF3542-D087-429F-BF24-9C4699473288}
+	EndGlobalSection
+EndGlobal
