@@ -1,0 +1,2 @@
+C:\WX\Me\UICore\obj\Debug\net8.0\staticwebassets.build.json
+C:\WX\Me\UICore\obj\Debug\net8.0\staticwebassets.build.json

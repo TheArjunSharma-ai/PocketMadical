@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dotnet\\PocketMedical\\PocketMedical.csproj": {}
+    "C:\\WX\\Me\\PocketMadical\\PocketMedical.csproj": {}
   },
   "projects": {
-    "D:\\Dotnet\\PocketMedical\\PocketMedical.csproj": {
+    "C:\\WX\\Me\\PocketMadical\\PocketMedical.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dotnet\\PocketMedical\\PocketMedical.csproj",
+        "projectUniqueName": "C:\\WX\\Me\\PocketMadical\\PocketMedical.csproj",
         "projectName": "PocketMedical",
-        "projectPath": "D:\\Dotnet\\PocketMedical\\PocketMedical.csproj",
-        "packagesPath": "C:\\Users\\as506\\.nuget\\packages\\",
-        "outputPath": "D:\\Dotnet\\PocketMedical\\obj\\",
+        "projectPath": "C:\\WX\\Me\\PocketMadical\\PocketMedical.csproj",
+        "packagesPath": "C:\\Users\\Arjun.Sharma\\.nuget\\packages\\",
+        "outputPath": "C:\\WX\\Me\\PocketMadical\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\as506\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arjun.Sharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,7 +32,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\WX\\Me\\UICore\\UICore.csproj": {
+                "projectPath": "C:\\WX\\Me\\UICore\\UICore.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -69,7 +73,79 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\WX\\Me\\UICore\\UICore.csproj": {
+      "version": "1.0.3",
+      "restore": {
+        "projectUniqueName": "C:\\WX\\Me\\UICore\\UICore.csproj",
+        "projectName": "TheArjunSharma.UICore",
+        "projectPath": "C:\\WX\\Me\\UICore\\UICore.csproj",
+        "packagesPath": "C:\\Users\\Arjun.Sharma\\.nuget\\packages\\",
+        "outputPath": "C:\\WX\\Me\\UICore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Arjun.Sharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
